@@ -4,4 +4,5 @@ scikit-learn
 selenium
 pillow
 urllib3
+dill
 # -e .
