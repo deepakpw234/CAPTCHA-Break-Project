@@ -3,4 +3,5 @@ numpy
 scikit-learn
 selenium
 pillow
+urllib3
 # -e .

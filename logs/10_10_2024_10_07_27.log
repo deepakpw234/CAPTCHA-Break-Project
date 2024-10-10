@@ -1,0 +1,17 @@
+[ 2024-10-10 10:07:28,021 ] 9 root - INFO - Main File - Data Ingestion Started
+[ 2024-10-10 10:07:28,021 ] 30 root - INFO - Data Ingestion Started
+[ 2024-10-10 10:07:28,712 ] 36 root - INFO - Dataset is downloaded from git in zip format
+[ 2024-10-10 10:07:28,712 ] 37 root - INFO - Unzipping of Dataset is started
+[ 2024-10-10 10:07:37,417 ] 42 root - INFO - Dataset is unzipped
+[ 2024-10-10 10:07:37,417 ] 44 root - INFO - Data Ingestion is completed
+[ 2024-10-10 10:07:37,419 ] 12 root - INFO - Main File - Data Ingestion Ended
+[ 2024-10-10 10:07:37,420 ] 15 root - INFO - Main File - Data Transforamtion Started
+[ 2024-10-10 10:07:37,420 ] 17 root - INFO - Main File - Data Transforamtion Started 2
+[ 2024-10-10 10:07:37,420 ] 25 root - INFO - Image to binary strated
+[ 2024-10-10 10:07:39,145 ] 56 root - INFO - Image to binary conversion completed
+[ 2024-10-10 10:08:00,703 ] 56 root - INFO - Image to binary conversion completed
+[ 2024-10-10 10:08:42,330 ] 56 root - INFO - Image to binary conversion completed
+[ 2024-10-10 10:09:17,396 ] 56 root - INFO - Image to binary conversion completed
+[ 2024-10-10 10:10:00,402 ] 56 root - INFO - Image to binary conversion completed
+[ 2024-10-10 10:10:10,278 ] 56 root - INFO - Image to binary conversion completed
+[ 2024-10-10 10:10:10,278 ] 19 root - INFO - Main File - Data Transforamtion Ended

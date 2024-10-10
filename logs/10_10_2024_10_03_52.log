@@ -1,0 +1,8 @@
+[ 2024-10-10 10:03:52,876 ] 9 root - INFO - Main File - Data Ingestion Started
+[ 2024-10-10 10:03:52,876 ] 30 root - INFO - Data Ingestion Started
+[ 2024-10-10 10:03:53,786 ] 36 root - INFO - Dataset is downloaded from git in zip format
+[ 2024-10-10 10:03:53,786 ] 37 root - INFO - Unzipping of Dataset is started
+[ 2024-10-10 10:04:02,227 ] 42 root - INFO - Dataset is unzipped
+[ 2024-10-10 10:04:02,228 ] 44 root - INFO - Data Ingestion is completed
+[ 2024-10-10 10:04:02,230 ] 12 root - INFO - Main File - Data Ingestion Ended
+[ 2024-10-10 10:04:02,230 ] 15 root - INFO - Main File - Data Transforamtion Started
