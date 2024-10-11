@@ -1,0 +1,8 @@
+[ 2024-10-11 06:57:18,657 ] 47 root - INFO - Initializing the training pipeline
+[ 2024-10-11 06:57:18,657 ] 51 root - INFO - Image spliting is started for target image
+[ 2024-10-11 06:57:18,667 ] 62 root - INFO - Image spliting is completed for target image
+[ 2024-10-11 06:57:18,667 ] 70 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-11 06:57:18,733 ] 85 root - INFO - Image converted to binary and save in csv
+[ 2024-10-11 06:57:18,733 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-11 06:57:18,733 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-11 06:57:20,790 ] 55 root - INFO - Prediction completed
