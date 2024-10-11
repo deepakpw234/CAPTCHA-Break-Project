@@ -33,7 +33,7 @@ class TrainPipelineConfig:
                            os.path.join(os.getcwd(),"artifacts","pipeline","csv","char_6.csv")
                            ]
     
-    raw_file_path = Image.open(r"C:\Users\deepa\Downloads\trail set\screenshot_990.png")
+    # raw_file_path = Image.open(r"C:\Users\deepa\Downloads\trail set\screenshot_990.png")
 
     os.makedirs(target_char_pipeline_path,exist_ok=True)
     os.makedirs(target_char_directory_path,exist_ok=True)
@@ -46,10 +46,10 @@ class TrainPipeline:
         self.train_pipeline_config = TrainPipelineConfig()
         logging.info("Initializing the training pipeline")
 
-    def image_spliting(self):
+    def image_spliting(self,raw_file_path):
         try:
             logging.info("Image spliting is started for target image")
-            img_file = self.train_pipeline_config.raw_file_path
+            img_file = raw_file_path
             img_file = img_file.convert("L")                                                # convert function is used to convert image in grey image
 
             img_start = [1,25,48,75,100,125,149]                                            # list of starting pixels

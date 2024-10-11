@@ -1,0 +1,12 @@
+[ 2024-10-11 14:21:27,372 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-11 14:21:27,381 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
+[ 2024-10-11 14:21:32,347 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Oct/2024 14:21:32] "GET /home HTTP/1.1" 200 -
+[ 2024-10-11 14:21:38,385 ] 47 root - INFO - Initializing the training pipeline
+[ 2024-10-11 14:21:38,385 ] 51 root - INFO - Image spliting is started for target image
+[ 2024-10-11 14:21:38,415 ] 62 root - INFO - Image spliting is completed for target image
+[ 2024-10-11 14:21:38,423 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Oct/2024 14:21:38] "[35m[1mPOST /home HTTP/1.1[0m" 500 -
+[ 2024-10-11 14:21:38,531 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Oct/2024 14:21:38] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-10-11 14:21:38,537 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Oct/2024 14:21:38] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-10-11 14:21:38,552 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Oct/2024 14:21:38] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=h0lGVhCvBC958PPyEx6n HTTP/1.1" 200 -
+[ 2024-10-11 14:21:38,563 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Oct/2024 14:21:38] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-10-11 14:23:45,808 ] 97 werkzeug - INFO -  * Detected change in 'c:\\users\\deepa\\panda 2024\\captcha break\\captcha break project\\application.py', reloading

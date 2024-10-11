@@ -54,16 +54,18 @@ class PredictPipeline:
 
             logging.info("Prediction completed")
 
-
+            
         except Exception as e:
             raise CustomException(e,sys)
         
+        return final_output
+        
 
-if __name__=="__main__":
-    train_pipeline = TrainPipeline()
-    train_pipeline.image_spliting()
-    path_for_predict_pipeline = train_pipeline.image_to_binary()
+# if __name__=="__main__":
+#     train_pipeline = TrainPipeline()
+#     train_pipeline.image_spliting()
+#     path_for_predict_pipeline = train_pipeline.image_to_binary()
 
-    predict_pipeline = PredictPipeline()
-    predict_pipeline.get_prediction(path_for_predict_pipeline)
+#     predict_pipeline = PredictPipeline()
+#     predict_pipeline.get_prediction(path_for_predict_pipeline)
 

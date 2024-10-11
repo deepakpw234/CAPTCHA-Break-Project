@@ -5,4 +5,5 @@ selenium
 pillow
 urllib3
 dill
+Flask
 # -e .
