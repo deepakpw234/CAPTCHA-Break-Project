@@ -25,7 +25,7 @@ class DataTransformation:
             var = 1
             for directory in os.listdir(dataset_path):
                 m = "w"
-                ind = True
+                ind = False
                 h = True
                 for folder in os.listdir(os.path.join(dataset_path,directory)):
                     for file in os.listdir(os.path.join(dataset_path,directory,folder)):
@@ -48,7 +48,7 @@ class DataTransformation:
                             reshape_img_arr[height*width] = ord(folder)-55
                             reshape_img_arr.to_csv(rf"{self.data_transform_config.tranform_data}\char_{var}.csv", mode=m, index=ind, header= h)
                         m = "a"
-                        ind = True
+                        ind = False
                         h = False
                 print(f"Stage-{var} Image to binary conversion completed")
                 logging.info(f"Stage-{var} Image to binary conversion completed")

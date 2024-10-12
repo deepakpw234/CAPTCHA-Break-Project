@@ -33,25 +33,29 @@ class ModelTrainer:
 
     def train_test_split_and_model_trainer(self,trasform_data_path):
         try:
-            df_char_ = [1,2,3,4,5,6,7]  # Assigning for using varible character
-            X_char_ = [1,2,3,4,5,6,7]
-            y_char_ = [1,2,3,4,5,6,7]
+            df_char_ = {}  # Assigning for using multiple varible
+            X_char_ = {}
+            y_char_ = {}
 
-            X_train_char_ = [1,2,3,4,5,6,7]
-            X_test_char_= [1,2,3,4,5,6,7]
+            X_train_char_ = {}
+            X_test_char_= {}
 
-            y_train_char_ = [1,2,3,4,5,6,7]
-            y_test_char_ = [1,2,3,4,5,6,7]
+            y_train_char_ = {}
+            y_test_char_ = {}
 
-            y_pred_char_ = [1,2,3,4,5,6,7]
+            y_pred_char_ = {}
 
             logging.info("Train Test and Model Training started")
             percentage = 0.1                                                           # Test size for the 1st character
             for i in range(1,7):
                 df_char_[i] = pd.read_csv(rf"{trasform_data_path}\char_{i}.csv")       # Creating the DataFrame for each charater from CSV
                 height, width = df_char_[i].shape
-                X_char_[i] = df_char_[i].drop(str(width-2),axis=1)                     # dropping the target column
-                y_char_[i] = df_char_[i][str(width-2)]                                 # Selecting the target column
+                X_char_[i] = df_char_[i].drop(str(width-1),axis=1)                     # dropping the target column
+                y_char_[i] = df_char_[i][str(width-1)]                                 # Selecting the target column
+
+                # print(df_char_[i])
+                # print(X_char_[i])
+                # print(y_char_[i])
 
                 # Train Test Split 
                 X_train_char_[i], X_test_char_[i], y_train_char_[i], y_test_char_[i] = train_test_split(X_char_[i],y_char_[i], test_size=percentage,random_state=42)
@@ -59,9 +63,9 @@ class ModelTrainer:
                 percentage = 0.2                                                       # This is giving 0.2 as we want test size to be 0.2 from 2nd character 
 
                 rf = RandomForestRegressor()                                           # Selecting the Random Regressor Model
-                rf.fit(X_train_char_[i],y_train_char_[i])                              # Fitting in the Model
+                rf.fit(X_train_char_[i].values,y_train_char_[i].values)                              # Fitting in the Model
 
-                y_pred_char_[i] = rf.predict(X_test_char_[i])                          # Prediction from the Model
+                y_pred_char_[i] = rf.predict(X_test_char_[i].values)                          # Prediction from the Model
 
                 score = r2_score(y_test_char_[i],y_pred_char_[i])
 

@@ -26,20 +26,21 @@ class PredictPipeline:
 
 
 
-    def get_prediction(self,target_csv_path):
+    def get_prediction(self,df_char):
         try:
             logging.info("Prediction for target image is started")
-            model_load = [1,2,3,4,5,6,7]                                            # Assigning model_load with sudo list so we can use model_load[i] as multiple variable
-            output_pred = [1,2,3,4,5,6,7]
+            model_load = {}                                           # Assigning model_load with sudo list so we can use model_load[i] as multiple variable
+            output_pred = {}
             final_output = ""
+            all_df = df_char
             for i in range(1,7):
-                target_csv_file = f"{target_csv_path}\char_{i}.csv"                 # Path for target csv file
                 model_path = f"{self.predict_pipeline_config.model_directory_path}\model_char_{i}.pkl"    # Path for model
-                target_csv_file_df = pd.read_csv(target_csv_file)
+                target_csv_file_df = all_df[i]
+
 
                 model_load[i] = load_object(model_path)                             # Loading the model
 
-                output_pred[i] = model_load[i].predict(target_csv_file_df)          # Prediction from model
+                output_pred[i] = model_load[i].predict(target_csv_file_df.values)          # Prediction from model
 
                 character = int(round(output_pred[i][0]))
 
@@ -61,11 +62,5 @@ class PredictPipeline:
         return final_output
         
 
-# if __name__=="__main__":
-#     train_pipeline = TrainPipeline()
-#     train_pipeline.image_spliting()
-#     path_for_predict_pipeline = train_pipeline.image_to_binary()
 
-#     predict_pipeline = PredictPipeline()
-#     predict_pipeline.get_prediction(path_for_predict_pipeline)
 

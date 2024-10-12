@@ -1,0 +1,30 @@
+[ 2024-10-12 06:57:15,819 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-12 06:57:15,825 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
+[ 2024-10-12 06:57:21,736 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2024 06:57:21] "GET /home HTTP/1.1" 200 -
+[ 2024-10-12 06:57:27,890 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-12 06:57:27,890 ] 26 root - INFO - Image spliting is started for target image
+[ 2024-10-12 06:57:27,891 ] 41 root - INFO - Image spliting is completed for target image
+[ 2024-10-12 06:57:27,891 ] 52 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-12 06:57:27,897 ] 72 root - INFO - Image converted to binary and save in csv
+[ 2024-10-12 06:57:27,897 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-12 06:57:27,898 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-12 06:57:29,371 ] 56 root - INFO - Prediction completed
+[ 2024-10-12 06:57:29,373 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2024 06:57:29] "POST /home HTTP/1.1" 200 -
+[ 2024-10-12 06:57:57,234 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-12 06:57:57,234 ] 26 root - INFO - Image spliting is started for target image
+[ 2024-10-12 06:57:57,235 ] 41 root - INFO - Image spliting is completed for target image
+[ 2024-10-12 06:57:57,235 ] 52 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-12 06:57:57,241 ] 72 root - INFO - Image converted to binary and save in csv
+[ 2024-10-12 06:57:57,242 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-12 06:57:57,242 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-12 06:57:57,306 ] 56 root - INFO - Prediction completed
+[ 2024-10-12 06:57:57,307 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2024 06:57:57] "POST /home HTTP/1.1" 200 -
+[ 2024-10-12 06:58:08,694 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-12 06:58:08,694 ] 26 root - INFO - Image spliting is started for target image
+[ 2024-10-12 06:58:08,695 ] 41 root - INFO - Image spliting is completed for target image
+[ 2024-10-12 06:58:08,695 ] 52 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-12 06:58:08,704 ] 72 root - INFO - Image converted to binary and save in csv
+[ 2024-10-12 06:58:08,704 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-12 06:58:08,704 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-12 06:58:08,789 ] 56 root - INFO - Prediction completed
+[ 2024-10-12 06:58:08,790 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2024 06:58:08] "POST /home HTTP/1.1" 200 -

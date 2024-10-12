@@ -1,9 +1,0 @@
-[ 2024-10-11 14:53:11,981 ] 47 root - INFO - Initializing the training pipeline
-[ 2024-10-11 14:53:11,981 ] 51 root - INFO - Image spliting is started for target image
-[ 2024-10-11 14:53:11,988 ] 62 root - INFO - Image spliting is completed for target image
-[ 2024-10-11 14:53:11,988 ] 70 root - INFO - Conversion from image to binary is started for target image
-[ 2024-10-11 14:53:12,049 ] 85 root - INFO - Image converted to binary and save in csv
-[ 2024-10-11 14:53:12,049 ] 25 root - INFO - Initializing the predict pipeline
-[ 2024-10-11 14:53:12,049 ] 31 root - INFO - Prediction for target image is started
-[ 2024-10-11 14:53:13,804 ] 55 root - INFO - Prediction completed
-[ 2024-10-11 14:53:13,811 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Oct/2024 14:53:13] "POST /home HTTP/1.1" 200 -

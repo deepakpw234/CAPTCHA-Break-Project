@@ -1,3 +1,0 @@
-[ 2024-10-11 14:28:10,258 ] 97 werkzeug - WARNING -  * Debugger is active!
-[ 2024-10-11 14:28:10,265 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
-[ 2024-10-11 14:28:14,322 ] 97 werkzeug - INFO -  * Detected change in 'c:\\users\\deepa\\panda 2024\\captcha break\\captcha break project\\src\\pipelines\\predict_pipeline.py', reloading

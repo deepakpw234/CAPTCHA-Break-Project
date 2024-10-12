@@ -1,0 +1,12 @@
+[ 2024-10-12 06:45:15,623 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-12 06:45:15,631 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
+[ 2024-10-12 06:45:22,804 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-12 06:45:22,805 ] 26 root - INFO - Image spliting is started for target image
+[ 2024-10-12 06:45:22,806 ] 41 root - INFO - Image spliting is completed for target image
+[ 2024-10-12 06:45:22,806 ] 52 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-12 06:45:22,817 ] 72 root - INFO - Image converted to binary and save in csv
+[ 2024-10-12 06:45:22,817 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-12 06:45:22,817 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-12 06:45:24,628 ] 58 root - INFO - Prediction completed
+[ 2024-10-12 06:45:24,637 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2024 06:45:24] "POST /home HTTP/1.1" 200 -
+[ 2024-10-12 06:47:28,871 ] 97 werkzeug - INFO -  * Detected change in 'c:\\users\\deepa\\panda 2024\\captcha break\\captcha break project\\src\\pipelines\\predict_pipeline.py', reloading

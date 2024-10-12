@@ -24,13 +24,14 @@ def predict_captcha():
 
         data = Image.open(data)
 
-        training_pipe = TrainPipeline()
-        training_pipe.image_spliting(data)
 
-        path_for_predict_pipeline = training_pipe.image_to_binary()
+        train_pipeline = TrainPipeline()
+        img_crop=train_pipeline.image_spliting(data)
+        df_char = train_pipeline.image_to_binary(img_crop)
+
 
         predict_pipeline = PredictPipeline()
-        captcha = predict_pipeline.get_prediction(path_for_predict_pipeline)
+        captcha = predict_pipeline.get_prediction(df_char)
 
     
         return render_template("home.html",captcha=captcha)
