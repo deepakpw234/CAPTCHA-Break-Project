@@ -1,0 +1,12 @@
+[ 2024-10-12 07:31:00,830 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-12 07:31:00,852 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
+[ 2024-10-12 07:31:04,514 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2024 07:31:04] "GET /home HTTP/1.1" 200 -
+[ 2024-10-12 07:31:11,517 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-12 07:31:11,517 ] 26 root - INFO - Image spliting is started for target image
+[ 2024-10-12 07:31:11,520 ] 41 root - INFO - Image spliting is completed for target image
+[ 2024-10-12 07:31:11,520 ] 52 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-12 07:31:11,532 ] 72 root - INFO - Image converted to binary and save in csv
+[ 2024-10-12 07:31:11,532 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-12 07:31:11,532 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-12 07:31:13,979 ] 56 root - INFO - Prediction completed
+[ 2024-10-12 07:31:13,980 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2024 07:31:13] "POST /home HTTP/1.1" 200 -
