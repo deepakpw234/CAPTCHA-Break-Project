@@ -14,6 +14,8 @@ application = Flask(__name__)
 
 app = application
 
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
+
 @app.route("/")
 def index():
     logging.info("Request in the get phase of index function")
