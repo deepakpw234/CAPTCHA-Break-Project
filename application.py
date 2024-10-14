@@ -5,9 +5,6 @@ from PIL import Image
 import os
 import sys
 
-from gunicorn.app.base import Application
-from gunicorn import util
-import fcntl
 
 
 from src.pipelines.train_pipeline import TrainPipeline
