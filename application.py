@@ -5,6 +5,11 @@ from PIL import Image
 import os
 import sys
 
+from gunicorn.app.base import Application
+from gunicorn import util
+import fcntl
+
+
 from src.pipelines.train_pipeline import TrainPipeline
 from src.pipelines.predict_pipeline import PredictPipeline
 from src.exception import CustomException
@@ -13,6 +18,8 @@ from src.logger import logging
 application = Flask(__name__)
 
 app = application
+
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 @app.route("/")
 def index():

@@ -6,4 +6,5 @@ pillow
 urllib3
 dill
 Flask
+imagehash
 # -e .
