@@ -1,0 +1,19 @@
+[ 2024-10-14 17:58:08,775 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-14 17:58:08,788 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
+[ 2024-10-14 17:58:11,302 ] 30 root - INFO - Request in the get phase of predict captcha function
+[ 2024-10-14 17:58:11,313 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Oct/2024 17:58:11] "GET /home HTTP/1.1" 200 -
+[ 2024-10-14 17:58:17,978 ] 34 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2024-10-14 17:58:17,996 ] 39 root - INFO - The file value is: <FileStorage: 'screenshot_999.png' ('image/png')>
+[ 2024-10-14 17:58:17,997 ] 45 root - INFO - Uploaded image is openeing
+[ 2024-10-14 17:58:18,049 ] 47 root - INFO - the data value is <PIL.PngImagePlugin.PngImageFile image mode=RGB size=200x80 at 0x17229288350>
+[ 2024-10-14 17:58:18,049 ] 52 root - INFO - opened image go to trainig pipeline
+[ 2024-10-14 17:58:18,050 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-14 17:58:18,050 ] 26 root - INFO - Image spliting is started for target image
+[ 2024-10-14 17:58:18,053 ] 42 root - INFO - Image spliting is completed for target image
+[ 2024-10-14 17:58:18,053 ] 53 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-14 17:58:18,060 ] 73 root - INFO - Image converted to binary
+[ 2024-10-14 17:58:18,060 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-14 17:58:18,060 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-14 17:58:23,026 ] 56 root - INFO - Prediction completed
+[ 2024-10-14 17:58:23,027 ] 61 root - INFO - captcha is predicted and it is ygwxop , and type of it <class 'str'>
+[ 2024-10-14 17:58:23,028 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Oct/2024 17:58:23] "POST /home HTTP/1.1" 200 -
