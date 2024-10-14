@@ -24,8 +24,9 @@ class TrainPipeline:
     def image_spliting(self,data):
         try:
             logging.info("Image spliting is started for target image")
-            
             img_file = data
+            
+        
             img_file = img_file.convert("L")                                                # convert function is used to convert image in grey image
 
             # For cropping the image
@@ -69,7 +70,7 @@ class TrainPipeline:
                 reshape_img_arr[i] = pd.DataFrame(reshape_img_arr_ini[i])
                 
                 
-            logging.info("Image converted to binary and save in csv")
+            logging.info("Image converted to binary")
               
 
         except Exception as e:

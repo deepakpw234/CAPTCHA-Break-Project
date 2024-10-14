@@ -1,0 +1,24 @@
+[ 2024-10-13 10:58:34,280 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+[ 2024-10-13 10:58:34,280 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-10-13 10:58:39,630 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 10:58:39] "GET /home HTTP/1.1" 200 -
+[ 2024-10-13 11:00:18,925 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-13 11:00:18,925 ] 26 root - INFO - Image spliting is started for target image
+[ 2024-10-13 11:00:18,928 ] 41 root - INFO - Image spliting is completed for target image
+[ 2024-10-13 11:00:18,928 ] 52 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-13 11:00:18,937 ] 72 root - INFO - Image converted to binary and save in csv
+[ 2024-10-13 11:00:18,937 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-13 11:00:18,937 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-13 11:00:20,869 ] 56 root - INFO - Prediction completed
+[ 2024-10-13 11:00:20,870 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 11:00:20] "POST /home HTTP/1.1" 200 -
+[ 2024-10-13 11:03:05,000 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-13 11:03:05,000 ] 26 root - INFO - Image spliting is started for target image
+[ 2024-10-13 11:03:05,002 ] 41 root - INFO - Image spliting is completed for target image
+[ 2024-10-13 11:03:05,002 ] 52 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-13 11:03:05,008 ] 72 root - INFO - Image converted to binary and save in csv
+[ 2024-10-13 11:03:05,008 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-13 11:03:05,008 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-13 11:03:05,070 ] 56 root - INFO - Prediction completed
+[ 2024-10-13 11:03:05,072 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 11:03:05] "POST /home HTTP/1.1" 200 -

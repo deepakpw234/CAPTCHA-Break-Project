@@ -1,0 +1,27 @@
+[ 2024-10-13 11:03:45,547 ] 10 root - INFO - Main File - Data Ingestion Started
+[ 2024-10-13 11:03:45,548 ] 30 root - INFO - Data Ingestion Started
+[ 2024-10-13 11:03:48,077 ] 36 root - INFO - Dataset is downloaded from git in zip format
+[ 2024-10-13 11:03:48,078 ] 37 root - INFO - Unzipping of Dataset is started
+[ 2024-10-13 11:04:00,373 ] 42 root - INFO - Dataset is unzipped
+[ 2024-10-13 11:04:00,373 ] 44 root - INFO - Data Ingestion is completed
+[ 2024-10-13 11:04:00,376 ] 13 root - INFO - Main File - Data Ingestion Ended
+[ 2024-10-13 11:04:00,376 ] 16 root - INFO - Main File - Data Transforamtion Started
+[ 2024-10-13 11:04:00,376 ] 24 root - INFO - Image to binary strated
+[ 2024-10-13 11:04:02,463 ] 54 root - INFO - Stage-1 Image to binary conversion completed
+[ 2024-10-13 11:04:28,028 ] 54 root - INFO - Stage-2 Image to binary conversion completed
+[ 2024-10-13 11:05:17,652 ] 54 root - INFO - Stage-3 Image to binary conversion completed
+[ 2024-10-13 11:05:55,513 ] 54 root - INFO - Stage-4 Image to binary conversion completed
+[ 2024-10-13 11:06:45,073 ] 54 root - INFO - Stage-5 Image to binary conversion completed
+[ 2024-10-13 11:06:56,337 ] 54 root - INFO - Stage-6 Image to binary conversion completed
+[ 2024-10-13 11:06:56,337 ] 57 root - INFO - All Image to binary conversion completed
+[ 2024-10-13 11:06:56,337 ] 19 root - INFO - Main File - Data Transforamtion Ended
+[ 2024-10-13 11:06:56,337 ] 22 root - INFO - Main File - Model Training Started
+[ 2024-10-13 11:06:56,337 ] 48 root - INFO - Train Test and Model Training started
+[ 2024-10-13 11:06:57,017 ] 14 root - INFO - Pickle file is created for C:\Users\deepa\Panda 2024\CAPTCHA Break\CAPTCHA Break Project\artifacts\model\model_char_1.pkl
+[ 2024-10-13 11:07:00,085 ] 14 root - INFO - Pickle file is created for C:\Users\deepa\Panda 2024\CAPTCHA Break\CAPTCHA Break Project\artifacts\model\model_char_2.pkl
+[ 2024-10-13 11:07:05,567 ] 14 root - INFO - Pickle file is created for C:\Users\deepa\Panda 2024\CAPTCHA Break\CAPTCHA Break Project\artifacts\model\model_char_3.pkl
+[ 2024-10-13 11:07:10,055 ] 14 root - INFO - Pickle file is created for C:\Users\deepa\Panda 2024\CAPTCHA Break\CAPTCHA Break Project\artifacts\model\model_char_4.pkl
+[ 2024-10-13 11:07:15,912 ] 14 root - INFO - Pickle file is created for C:\Users\deepa\Panda 2024\CAPTCHA Break\CAPTCHA Break Project\artifacts\model\model_char_5.pkl
+[ 2024-10-13 11:07:17,540 ] 14 root - INFO - Pickle file is created for C:\Users\deepa\Panda 2024\CAPTCHA Break\CAPTCHA Break Project\artifacts\model\model_char_6.pkl
+[ 2024-10-13 11:07:17,540 ] 96 root - INFO - Train Test Split and Model Training Completed
+[ 2024-10-13 11:07:17,598 ] 25 root - INFO - Main File - Model Training Ended

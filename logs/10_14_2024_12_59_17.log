@@ -1,0 +1,21 @@
+[ 2024-10-14 12:59:17,247 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-14 12:59:17,259 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
+[ 2024-10-14 12:59:21,138 ] 26 root - INFO - Request in the get phase of predict captcha function
+[ 2024-10-14 12:59:21,168 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Oct/2024 12:59:21] "GET /home HTTP/1.1" 200 -
+[ 2024-10-14 12:59:28,245 ] 19 root - INFO - Request in the get phase of index function
+[ 2024-10-14 12:59:28,255 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Oct/2024 12:59:28] "GET / HTTP/1.1" 200 -
+[ 2024-10-14 13:00:18,491 ] 26 root - INFO - Request in the get phase of predict captcha function
+[ 2024-10-14 13:00:18,492 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Oct/2024 13:00:18] "GET /home HTTP/1.1" 200 -
+[ 2024-10-14 13:00:44,067 ] 30 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2024-10-14 13:00:44,068 ] 40 root - INFO - Uploaded image is openeing
+[ 2024-10-14 13:00:44,121 ] 46 root - INFO - opened image go to trainig pipeline
+[ 2024-10-14 13:00:44,121 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-14 13:00:44,122 ] 26 root - INFO - Image spliting is started for target image
+[ 2024-10-14 13:00:44,124 ] 42 root - INFO - Image spliting is completed for target image
+[ 2024-10-14 13:00:44,124 ] 53 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-14 13:00:44,135 ] 73 root - INFO - Image converted to binary and save in csv
+[ 2024-10-14 13:00:44,135 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-14 13:00:44,135 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-14 13:00:48,643 ] 56 root - INFO - Prediction completed
+[ 2024-10-14 13:00:48,646 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Oct/2024 13:00:48] "POST /home HTTP/1.1" 200 -
+[ 2024-10-14 13:03:09,611 ] 97 werkzeug - INFO -  * Detected change in 'c:\\users\\deepa\\panda 2024\\captcha break\\captcha break project\\application.py', reloading
