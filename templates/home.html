@@ -4,29 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Captcha Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .upload-form {
+            margin-bottom: 20px;
+        }
+        .captcha-result {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+        .error-message {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <h1>CAPTCHA Break</h1>
-    <p>This website is designed to convert CAPTCHA images into text format. <br>
-        Users can upload CAPTCHA images and receive the corresponding text. <br>
-        The CAPTCHA images are sourced from the Election Commission of India website. <br>
-        The prediction method used here is <b>Random Forest</b>, which achieves an accuracy rate of <b>99%.</b>
+    <p>
+        This website is designed to convert CAPTCHA images into text format.<br>
+        Users can upload CAPTCHA images and receive the corresponding text.<br>
+        The CAPTCHA images are sourced from the Election Commission of India website.<br>
+        The prediction method used here is <strong>Random Forest</strong>, which achieves an accuracy rate of <strong>99%.</strong>
     </p>
     <h2>Upload an Image</h2>
-    <p><small>Please upload the image in the required format - (200*80 pixels)</small></p>
+    <p><small>Please upload the image in the required format - (200x80 pixels)</small></p>
     
-    <form action="{{ url_for('predict_captcha')}}" method="POST" enctype="multipart/form-data">
-        <label for="imageUpload"><big>Select an image to upload:</big></label>
-        <input type="file" id="imageUpload" name="image" accept="image/*" required>
-        <br><br>
-        <input type="submit" value="Upload Image">
-    </form>
-
+    <div class="upload-form">
+        <form action="{{ url_for('predict_captcha') }}" method="post" enctype="multipart/form-data">
+            <label for="imageUpload">Select an image to upload:</label>
+            <input type="file" id="imageUpload" name="image" accept="image/*" required>
+            <br><br>
+            <input type="submit" value="Upload Image">
+        </form>
+    </div>
 
     {% if captcha %}
-    <p>The CAPTCHA is: <big><big><b><big>{{ captcha }}</big></b></big></big></p>
+    <p class="captcha-result">The CAPTCHA is: {{ captcha }}</p>
     {% endif %}
-
 
 </body>
 </html>
