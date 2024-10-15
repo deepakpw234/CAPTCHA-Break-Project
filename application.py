@@ -4,6 +4,7 @@ import numpy as np
 from PIL import Image
 import os
 import sys
+from werkzeug.utils import secure_filename
 
 
 
@@ -16,7 +17,26 @@ application = Flask(__name__)
 
 app = application
 
+UPLOAD_FOLDER = 'uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
+
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
+
+
+
+def image_processing(filepath):
+    try:
+        # Open the image using PIL
+        image = Image.open(filepath)
+
+        return image  
+
+    except Exception as e:
+        raise CustomException(e,sys)
+    
+
 
 @app.route("/")
 def index():
@@ -41,13 +61,23 @@ def predict_captcha():
             if file.filename == '':
                 return render_template("home.html", error="No file selected for uploading.")
             
-            try:
-                logging.info("Uploaded image is openeing")
-                data = Image.open(file)
-                logging.info(f"the data value is {data}")
-            except Exception as e:
-                return render_template("home.html", error="Invalid image file.")
+            
+            logging.info("Uploaded image is openeing")
 
+            filename = secure_filename(file.filename)
+            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+
+            # Save the uploaded file to the server
+            file.save(filepath)
+
+            # image processing function
+            img = image_processing(filepath)
+
+            data = img
+
+            
+            logging.info(f"the data value is {data}")
+            
 
             logging.info("opened image go to trainig pipeline")
             train_pipe = TrainPipeline()
@@ -59,6 +89,9 @@ def predict_captcha():
             captcha = predict_pipe.get_prediction(df_char)
 
             logging.info(f"captcha is predicted and it is {captcha} , and type of it {type(captcha)}")
+
+            # Remove the uploaded file after processing to save space
+            os.remove(filepath)
 
             return render_template("home.html",captcha=captcha)
         

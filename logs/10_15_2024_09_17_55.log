@@ -1,0 +1,13 @@
+[ 2024-10-15 09:17:55,469 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-15 09:17:55,480 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
+[ 2024-10-15 09:18:05,009 ] 50 root - INFO - Request in the get phase of predict captcha function
+[ 2024-10-15 09:18:05,016 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Oct/2024 09:18:05] "GET /home HTTP/1.1" 200 -
+[ 2024-10-15 09:18:12,119 ] 54 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2024-10-15 09:18:12,121 ] 59 root - INFO - The file value is: <FileStorage: 'screenshot_996.png' ('image/png')>
+[ 2024-10-15 09:18:12,121 ] 65 root - INFO - Uploaded image is openeing
+[ 2024-10-15 09:18:12,161 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Oct/2024 09:18:12] "[35m[1mPOST /home HTTP/1.1[0m" 500 -
+[ 2024-10-15 09:18:12,264 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Oct/2024 09:18:12] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-10-15 09:18:12,283 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Oct/2024 09:18:12] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-10-15 09:18:12,323 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Oct/2024 09:18:12] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=wMGS8YgooNNOLed8jQGn HTTP/1.1" 200 -
+[ 2024-10-15 09:18:12,334 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Oct/2024 09:18:12] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-10-15 09:19:29,264 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\deepa\\Panda 2024\\CAPTCHA Break\\CAPTCHA Break Project\\application.py', reloading
