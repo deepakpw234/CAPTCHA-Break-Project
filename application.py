@@ -71,17 +71,17 @@ def predict_captcha():
             file.save(filepath)
 
             # image processing function
-            img = image_processing(filepath)
+            # img = image_processing(filepath)
 
-            data = img
+            # data = img
 
             
-            logging.info(f"the data value is {data}")
+            logging.info(f"the data value is {filepath}")
             
 
             logging.info("opened image go to trainig pipeline")
             train_pipe = TrainPipeline()
-            img_crop=train_pipe.image_spliting(data)
+            img_crop=train_pipe.image_spliting(filepath)
             df_char = train_pipe.image_to_binary(img_crop)
 
 
@@ -91,7 +91,7 @@ def predict_captcha():
             logging.info(f"captcha is predicted and it is {captcha} , and type of it {type(captcha)}")
 
             # Remove the uploaded file after processing to save space
-            os.remove(filepath)
+            # os.remove(filepath)
 
             return render_template("home.html",captcha=captcha)
         

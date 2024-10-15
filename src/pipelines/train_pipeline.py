@@ -21,10 +21,11 @@ class TrainPipeline:
         self.train_pipeline_config = TrainPipelineConfig()
         logging.info("Initializing the training pipeline")
 
-    def image_spliting(self,data):
+    def image_spliting(self,filepath):
         try:
+            
             logging.info("Image spliting is started for target image")
-            img_file = data
+            img_file = Image.open(filepath)
             
         
             img_file = img_file.convert("L")                                                # convert function is used to convert image in grey image
