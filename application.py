@@ -23,18 +23,6 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
-
-
-
-def image_processing(filepath):
-    try:
-        # Open the image using PIL
-        image = Image.open(filepath)
-
-        return image  
-
-    except Exception as e:
-        raise CustomException(e,sys)
     
 
 
@@ -70,12 +58,7 @@ def predict_captcha():
             # Save the uploaded file to the server
             file.save(filepath)
 
-            # image processing function
-            # img = image_processing(filepath)
 
-            # data = img
-
-            
             logging.info(f"the data value is {filepath}")
             
 
@@ -91,7 +74,7 @@ def predict_captcha():
             logging.info(f"captcha is predicted and it is {captcha} , and type of it {type(captcha)}")
 
             # Remove the uploaded file after processing to save space
-            # os.remove(filepath)
+            os.remove(filepath)
 
             return render_template("home.html",captcha=captcha)
         
@@ -99,4 +82,4 @@ def predict_captcha():
         raise CustomException(e,sys)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",debug=True)
+    app.run(host="0.0.0.0",port=8080)
