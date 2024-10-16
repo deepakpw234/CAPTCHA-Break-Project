@@ -93,6 +93,11 @@ Step 6: Run the flask application
 ```bash
 python application.py
 ```
+## Live demo 
+
+
+https://github.com/user-attachments/assets/a970dc05-bbe0-4ef8-b800-f63a2edf1b0e
+
 
 
 
