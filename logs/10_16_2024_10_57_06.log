@@ -1,0 +1,3 @@
+[ 2024-10-16 10:57:06,197 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-16 10:57:06,203 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
+[ 2024-10-16 10:57:41,539 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\deepa\\Panda 2024\\CAPTCHA Break\\CAPTCHA Break Project\\application.py', reloading

@@ -1,0 +1,47 @@
+[ 2024-10-16 10:57:42,390 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-16 10:57:42,395 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
+[ 2024-10-16 10:57:55,506 ] 42 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2024-10-16 10:57:55,508 ] 47 root - INFO - The file value is: <FileStorage: 'Captcha_2.png' ('image/png')>
+[ 2024-10-16 10:57:55,509 ] 53 root - INFO - Uploaded image is openeing
+[ 2024-10-16 10:57:55,510 ] 62 root - INFO - the data value is uploads\Captcha_2.png
+[ 2024-10-16 10:57:55,510 ] 65 root - INFO - opened image go to trainig pipeline
+[ 2024-10-16 10:57:55,510 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-16 10:57:55,510 ] 27 root - INFO - Image spliting is started for target image
+[ 2024-10-16 10:57:55,537 ] 43 root - INFO - Image spliting is completed for target image
+[ 2024-10-16 10:57:55,537 ] 54 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-16 10:57:55,541 ] 74 root - INFO - Image converted to binary
+[ 2024-10-16 10:57:55,542 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-16 10:57:55,542 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-16 10:57:56,747 ] 56 root - INFO - Prediction completed
+[ 2024-10-16 10:57:56,747 ] 74 root - INFO - captcha is predicted and it is ql3fow , and type of it <class 'str'>
+[ 2024-10-16 10:57:56,754 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 10:57:56] "POST /home HTTP/1.1" 200 -
+[ 2024-10-16 10:59:19,991 ] 42 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2024-10-16 10:59:19,992 ] 47 root - INFO - The file value is: <FileStorage: 'Captcha_3.png' ('image/png')>
+[ 2024-10-16 10:59:19,992 ] 53 root - INFO - Uploaded image is openeing
+[ 2024-10-16 10:59:19,993 ] 62 root - INFO - the data value is uploads\Captcha_3.png
+[ 2024-10-16 10:59:19,993 ] 65 root - INFO - opened image go to trainig pipeline
+[ 2024-10-16 10:59:19,993 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-16 10:59:19,993 ] 27 root - INFO - Image spliting is started for target image
+[ 2024-10-16 10:59:19,999 ] 43 root - INFO - Image spliting is completed for target image
+[ 2024-10-16 10:59:19,999 ] 54 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-16 10:59:20,004 ] 74 root - INFO - Image converted to binary
+[ 2024-10-16 10:59:20,004 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-16 10:59:20,004 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-16 10:59:20,041 ] 56 root - INFO - Prediction completed
+[ 2024-10-16 10:59:20,041 ] 74 root - INFO - captcha is predicted and it is bnbifb , and type of it <class 'str'>
+[ 2024-10-16 10:59:20,045 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 10:59:20] "POST /home HTTP/1.1" 200 -
+[ 2024-10-16 10:59:27,090 ] 42 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2024-10-16 10:59:27,091 ] 47 root - INFO - The file value is: <FileStorage: 'Captcha_4.png' ('image/png')>
+[ 2024-10-16 10:59:27,091 ] 53 root - INFO - Uploaded image is openeing
+[ 2024-10-16 10:59:27,092 ] 62 root - INFO - the data value is uploads\Captcha_4.png
+[ 2024-10-16 10:59:27,092 ] 65 root - INFO - opened image go to trainig pipeline
+[ 2024-10-16 10:59:27,093 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-16 10:59:27,093 ] 27 root - INFO - Image spliting is started for target image
+[ 2024-10-16 10:59:27,101 ] 43 root - INFO - Image spliting is completed for target image
+[ 2024-10-16 10:59:27,101 ] 54 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-16 10:59:27,106 ] 74 root - INFO - Image converted to binary
+[ 2024-10-16 10:59:27,106 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-16 10:59:27,106 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-16 10:59:27,151 ] 56 root - INFO - Prediction completed
+[ 2024-10-16 10:59:27,153 ] 74 root - INFO - captcha is predicted and it is l4c6fn , and type of it <class 'str'>
+[ 2024-10-16 10:59:27,154 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 10:59:27] "POST /home HTTP/1.1" 200 -

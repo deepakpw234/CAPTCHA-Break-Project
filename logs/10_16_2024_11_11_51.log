@@ -1,0 +1,49 @@
+[ 2024-10-16 11:11:51,068 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-16 11:11:51,074 ] 97 werkzeug - INFO -  * Debugger PIN: 133-700-328
+[ 2024-10-16 11:11:55,590 ] 38 root - INFO - Request in the get phase of predict captcha function
+[ 2024-10-16 11:11:55,598 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 11:11:55] "GET /home HTTP/1.1" 200 -
+[ 2024-10-16 11:12:08,991 ] 42 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2024-10-16 11:12:08,993 ] 47 root - INFO - The file value is: <FileStorage: 'Captcha_1.png' ('image/png')>
+[ 2024-10-16 11:12:08,994 ] 53 root - INFO - Uploaded image is openeing
+[ 2024-10-16 11:12:08,995 ] 62 root - INFO - the data value is uploads\Captcha_1.png
+[ 2024-10-16 11:12:08,995 ] 65 root - INFO - opened image go to trainig pipeline
+[ 2024-10-16 11:12:08,995 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-16 11:12:08,995 ] 27 root - INFO - Image spliting is started for target image
+[ 2024-10-16 11:12:09,033 ] 43 root - INFO - Image spliting is completed for target image
+[ 2024-10-16 11:12:09,033 ] 54 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-16 11:12:09,038 ] 74 root - INFO - Image converted to binary
+[ 2024-10-16 11:12:09,038 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-16 11:12:09,039 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-16 11:12:10,724 ] 56 root - INFO - Prediction completed
+[ 2024-10-16 11:12:10,726 ] 74 root - INFO - captcha is predicted and it is w3ekj4 , and type of it <class 'str'>
+[ 2024-10-16 11:12:10,729 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 11:12:10] "POST /home HTTP/1.1" 200 -
+[ 2024-10-16 11:12:22,732 ] 42 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2024-10-16 11:12:22,735 ] 47 root - INFO - The file value is: <FileStorage: 'Captcha_3.png' ('image/png')>
+[ 2024-10-16 11:12:22,735 ] 53 root - INFO - Uploaded image is openeing
+[ 2024-10-16 11:12:22,736 ] 62 root - INFO - the data value is uploads\Captcha_3.png
+[ 2024-10-16 11:12:22,737 ] 65 root - INFO - opened image go to trainig pipeline
+[ 2024-10-16 11:12:22,737 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-16 11:12:22,737 ] 27 root - INFO - Image spliting is started for target image
+[ 2024-10-16 11:12:22,746 ] 43 root - INFO - Image spliting is completed for target image
+[ 2024-10-16 11:12:22,746 ] 54 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-16 11:12:22,754 ] 74 root - INFO - Image converted to binary
+[ 2024-10-16 11:12:22,754 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-16 11:12:22,754 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-16 11:12:22,845 ] 56 root - INFO - Prediction completed
+[ 2024-10-16 11:12:22,847 ] 74 root - INFO - captcha is predicted and it is bnbifb , and type of it <class 'str'>
+[ 2024-10-16 11:12:22,849 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 11:12:22] "POST /home HTTP/1.1" 200 -
+[ 2024-10-16 11:12:35,782 ] 42 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2024-10-16 11:12:35,784 ] 47 root - INFO - The file value is: <FileStorage: 'Captcha_7.png' ('image/png')>
+[ 2024-10-16 11:12:35,784 ] 53 root - INFO - Uploaded image is openeing
+[ 2024-10-16 11:12:35,785 ] 62 root - INFO - the data value is uploads\Captcha_7.png
+[ 2024-10-16 11:12:35,785 ] 65 root - INFO - opened image go to trainig pipeline
+[ 2024-10-16 11:12:35,786 ] 22 root - INFO - Initializing the training pipeline
+[ 2024-10-16 11:12:35,786 ] 27 root - INFO - Image spliting is started for target image
+[ 2024-10-16 11:12:35,794 ] 43 root - INFO - Image spliting is completed for target image
+[ 2024-10-16 11:12:35,795 ] 54 root - INFO - Conversion from image to binary is started for target image
+[ 2024-10-16 11:12:35,801 ] 74 root - INFO - Image converted to binary
+[ 2024-10-16 11:12:35,801 ] 25 root - INFO - Initializing the predict pipeline
+[ 2024-10-16 11:12:35,802 ] 31 root - INFO - Prediction for target image is started
+[ 2024-10-16 11:12:35,867 ] 56 root - INFO - Prediction completed
+[ 2024-10-16 11:12:35,868 ] 74 root - INFO - captcha is predicted and it is qt3wro , and type of it <class 'str'>
+[ 2024-10-16 11:12:35,869 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 11:12:35] "POST /home HTTP/1.1" 200 -
