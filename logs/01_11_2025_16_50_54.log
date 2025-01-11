@@ -1,0 +1,9 @@
+[ 2025-01-11 16:50:54,470 ] 317 root - INFO - Chromedriver is already installed.
+[ 2025-01-11 16:51:02,553 ] 22 root - INFO - Initializing the training pipeline
+[ 2025-01-11 16:51:02,553 ] 27 root - INFO - Image spliting is started for target image
+[ 2025-01-11 16:51:02,576 ] 43 root - INFO - Image spliting is completed for target image
+[ 2025-01-11 16:51:02,576 ] 54 root - INFO - Conversion from image to binary is started for target image
+[ 2025-01-11 16:51:02,582 ] 74 root - INFO - Image converted to binary
+[ 2025-01-11 16:51:02,582 ] 25 root - INFO - Initializing the predict pipeline
+[ 2025-01-11 16:51:02,582 ] 31 root - INFO - Prediction for target image is started
+[ 2025-01-11 16:51:03,399 ] 56 root - INFO - Prediction completed

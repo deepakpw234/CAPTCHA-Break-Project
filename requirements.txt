@@ -38,4 +38,10 @@ urllib3==2.2.3
 websocket-client==1.8.0
 Werkzeug==3.0.4
 wsproto==1.2.0
--e . 
+requests
+opencv-python
+geckodriver_autoinstaller
+
+chromedriver_autoinstaller
+webdriver_manager
+# -e . 
