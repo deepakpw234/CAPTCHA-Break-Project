@@ -1,0 +1,38 @@
+[ 2025-01-10 17:56:36,611 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.12:8080
+[ 2025-01-10 17:56:36,611 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-01-10 18:00:01,730 ] 38 root - INFO - Request in the get phase of predict captcha function
+[ 2025-01-10 18:00:01,776 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Jan/2025 18:00:01] "GET /home HTTP/1.1" 200 -
+[ 2025-01-10 18:00:01,926 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Jan/2025 18:00:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-01-10 18:03:07,966 ] 42 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2025-01-10 18:03:07,968 ] 47 root - INFO - The file value is: <FileStorage: 'screenshot_999.png' ('image/png')>
+[ 2025-01-10 18:03:07,968 ] 53 root - INFO - Uploaded image is openeing
+[ 2025-01-10 18:03:07,970 ] 62 root - INFO - the data value is uploads\screenshot_999.png
+[ 2025-01-10 18:03:07,970 ] 65 root - INFO - opened image go to trainig pipeline
+[ 2025-01-10 18:03:07,970 ] 22 root - INFO - Initializing the training pipeline
+[ 2025-01-10 18:03:07,970 ] 27 root - INFO - Image spliting is started for target image
+[ 2025-01-10 18:03:08,086 ] 43 root - INFO - Image spliting is completed for target image
+[ 2025-01-10 18:03:08,087 ] 54 root - INFO - Conversion from image to binary is started for target image
+[ 2025-01-10 18:03:08,096 ] 74 root - INFO - Image converted to binary
+[ 2025-01-10 18:03:08,097 ] 25 root - INFO - Initializing the predict pipeline
+[ 2025-01-10 18:03:08,097 ] 31 root - INFO - Prediction for target image is started
+[ 2025-01-10 18:03:16,725 ] 56 root - INFO - Prediction completed
+[ 2025-01-10 18:03:16,725 ] 74 root - INFO - captcha is predicted and it is ygwxop , and type of it <class 'str'>
+[ 2025-01-10 18:03:16,727 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Jan/2025 18:03:16] "POST /home HTTP/1.1" 200 -
+[ 2025-01-10 18:03:28,583 ] 42 root - INFO - Request in the POST phase of predict captcha function and routing started
+[ 2025-01-10 18:03:28,586 ] 47 root - INFO - The file value is: <FileStorage: 'screenshot_948.png' ('image/png')>
+[ 2025-01-10 18:03:28,587 ] 53 root - INFO - Uploaded image is openeing
+[ 2025-01-10 18:03:28,588 ] 62 root - INFO - the data value is uploads\screenshot_948.png
+[ 2025-01-10 18:03:28,589 ] 65 root - INFO - opened image go to trainig pipeline
+[ 2025-01-10 18:03:28,589 ] 22 root - INFO - Initializing the training pipeline
+[ 2025-01-10 18:03:28,589 ] 27 root - INFO - Image spliting is started for target image
+[ 2025-01-10 18:03:28,605 ] 43 root - INFO - Image spliting is completed for target image
+[ 2025-01-10 18:03:28,605 ] 54 root - INFO - Conversion from image to binary is started for target image
+[ 2025-01-10 18:03:28,612 ] 74 root - INFO - Image converted to binary
+[ 2025-01-10 18:03:28,613 ] 25 root - INFO - Initializing the predict pipeline
+[ 2025-01-10 18:03:28,613 ] 31 root - INFO - Prediction for target image is started
+[ 2025-01-10 18:03:28,684 ] 56 root - INFO - Prediction completed
+[ 2025-01-10 18:03:28,685 ] 74 root - INFO - captcha is predicted and it is up36cs , and type of it <class 'str'>
+[ 2025-01-10 18:03:28,687 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Jan/2025 18:03:28] "POST /home HTTP/1.1" 200 -
